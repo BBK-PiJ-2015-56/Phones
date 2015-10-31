@@ -4,9 +4,9 @@ public class TestScript{
 		script.launch();
 	}
 	public void launch(){
-		Phone firstPhone = new MobilePhone();
-		OldPhone secondPhone = new MobilePhone();
-		MobilePhone mobPhone = new MobilePhone();
+		Phone firstPhone = new MobilePhone("nokia");
+		OldPhone secondPhone = new MobilePhone("samsung");
+		MobilePhone mobPhone = new MobilePhone("apple");
 		
 		mobPhone.ringAlarm("Wake Up!! Wake Up!!");
 		secondPhone.call("07548 212 356");
